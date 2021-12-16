@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto&display=swap');
+
+
+.wrapper{
+    margin: auto;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    width:80%;
+}
+h1{
+    font-size: 2vw;
+}
+.paragraph{
+    display: inline-block;
+    font-size: 1vw;
+}
+button{
+    width: 100%;
+    border-style: none;
+    background-color: #ff4d4d;
+}
+
+#gray-cat{
+    background-image: url('./images/cat_image1_desktop.png');
+    background-size: 100% 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.image-div{
+    width: 50%;
+    display: inline-block;
+}
+
+.our-treat{
+    width:100%;
+    background-image: url('./images/cat_treats_fd_minnows_01 3.png');
+}
+
+.member-list{
+    list-style-type: none;
+}
+.member-list li:before{
+    content: '✓';
+}
