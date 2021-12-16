@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto&display=swap');
 
 
-.wrapper{
-    width: 75%;
-    padding: 20px;
-    margin: auto;
-    font-family: 'Roboto', sans-serif;
 
-}
 h1{
     font-size: 1.8vw;
 }
@@ -58,8 +52,6 @@ img{
 
 .our-treat{
     margin: auto;
-
-    width:100%;
     height: 48vh;
     background-color: #C8C8C8;
     background-image: url('./images/cat_treats_fd_minnows_013.png');

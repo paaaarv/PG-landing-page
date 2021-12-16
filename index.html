@@ -3,44 +3,49 @@
     <head>
         <meta charset="utf-8">
         <meta title="Cat Treat"</meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link href="./styles.css" rel="stylesheet">
     </head>
     <body>
-        <div class="wrapper">
-            <div id="heading" class="paragraph">
-            <h1> Treat your pet (and you). <br>
-                It's on us! </h1>
-            <p> Treat your pet to a healthy treat for <span> free </span> to kick off your Public Goods trial membership. </p> <br>
-            <h3> See what it's like to be a Public Goods member. </h3>
-                <ul>
-                    <li> Included in your bundle is a free 2-week membership that gives you unlimited access to our entire collection of sustainable essentials. </li>
-                    <li> Take a load off. We make it easy for you to make better choices. Always included: eco-friendly products you can trust. </li>
-                </ul>
-                <button> Claim your free offer </button>
-            </div>
-            <div class="image-div">
-                <img class='desktop-img' src="./images/cat_image1_desktop.png" alt="cat looking up">
-                <img class="mobile-img" src="./images/cat_image1_mobile.png" alt="cat looking up">
-            </div>
-            <div class="our-treat">
-                <h2> Our Treat </h2>
-                <div id="treat">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="heading" class=".col-xs-12 .col-md-6">
+                <h1> Treat your pet (and you). <br>
+                    It's on us! </h1>
+                <p> Treat your pet to a healthy treat for <span> free </span> to kick off your Public Goods trial membership. </p> <br>
+                <h3> See what it's like to be a Public Goods member. </h3>
+                    <ul>
+                        <li> Included in your bundle is a free 2-week membership that gives you unlimited access to our entire collection of sustainable essentials. </li>
+                        <li> Take a load off. We make it easy for you to make better choices. Always included: eco-friendly products you can trust. </li>
+                    </ul>
+                    <button type="button" class="btn btn-primary btn-lg btn-block"> Claim your free offer </button>
+                </div>
+                <div class=".col-md-6 .col-xs-12">
+                    <img class='desktop-img' src="./images/cat_image1_desktop.png" alt="cat looking up">
+                    <img class="mobile-img" src="./images/cat_image1_mobile.png" alt="cat looking up">
                 </div>
             </div>
-            <div class="image-div" id="squishy-cat">
-                <img class="desktop-img" src="./images/cat_image2_desktop.png" alt="squishy faced cat">
-                <img class="mobile-img" src="./images/cat_image2_mobile.png" alt="squishy faced cat">
+            <div class='row'>
+                <div class="our-treat .col-xs-12 .col-md-12">
+                    <h2> Our Treat </h2>
+                </div>
             </div>
-            <div id="pet-approved" class="paragraph">
-                <h2> Pet-Approved </h2>
-                <h3> It feels good to be a member.</h3>
-                <p> After your free trial, become a full-time member with benefits for $59 a year. </p>
-                <ul class="member-list">
-                    <li> Cancel anytime during your free trial. </li>
-                    <li> Free shipping on orders over $45.</li>
-                    <li> Direct-to-consumer prices on hundreds of premium products </li>
-                </ul>
+            <div class="row">
+                <div class="image-div .col-xs-12 .col-md-6" id="squishy-cat">
+                    <img class="desktop-img" src="./images/cat_image2_desktop.png" alt="squishy faced cat">
+                    <img class="mobile-img" src="./images/cat_image2_mobile.png" alt="squishy faced cat">
+                </div>
+                <div id="pet-approved" class="paragraph .col-xs-12 .col-md-6">
+                    <h2> Pet-Approved </h2>
+                    <h3> It feels good to be a member.</h3>
+                    <p> After your free trial, become a full-time member with benefits for $59 a year. </p>
+                    <ul class="member-list">
+                        <li> Cancel anytime during your free trial. </li>
+                        <li> Free shipping on orders over $45.</li>
+                        <li> Direct-to-consumer prices on hundreds of premium products </li>
+                    </ul>
+                </div>
             </div>
-        </div>
     </body>
 </html>
