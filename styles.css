@@ -4,46 +4,35 @@ body{
     margin: 0 5px;
 }
 h1{
-    font-size: 1.8vw;
+    font-size: 3em;
 }
 h2{
     display: inline-block;
-    font-size: 1.3vw;
+    font-size: 1.5em;
     font-family: 'Open Sans Condensed', sans-serif;
     text-transform: uppercase;
 
 }
 .paragraph{
-    padding: 2em 2em;
-    font-size: 1vw;
+    padding: 2em;
+    font-size: 1em;
 }
 span{
     font-weight:700;
 }
 
-#heading{
-    float: left;
-}
 .claim-button{
     color: white;
     font-family: 'Roboto', sans-serif;
-    margin: 5em 1em;
-    padding: 1em;
+    margin-top: 3em;
     border-style: none;
     background-color: #ff884d;
 }
 
-.mobile-img{
-    display: none;
-}
-
-.image-div{
-    margin-bottom: 10vh;
-}
 
 .our-treat{
     text-align:center;
-    height: 80vh;
+    height: 65vh;
     background-color: #C8C8C8;
     background-image: url('./images/cat_treats_fd_minnows_013.png');
     background-size: contain;
